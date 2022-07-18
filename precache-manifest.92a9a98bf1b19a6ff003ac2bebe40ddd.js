@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f06a8ae782728228e0aa",
-    "url": "/spotifun/static/css/main.34bd155f.chunk.css"
+    "revision": "8cf0f318e23602ab0298",
+    "url": "/spotifun/static/css/main.c2e2545c.chunk.css"
   },
   {
-    "revision": "f06a8ae782728228e0aa",
-    "url": "/spotifun/static/js/main.c7d9c820.chunk.js"
+    "revision": "8cf0f318e23602ab0298",
+    "url": "/spotifun/static/js/main.d34d3909.chunk.js"
   },
   {
     "revision": "8f7db0dcd81afdbf50c8",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/spotifun/static/media/shelf2.d7b9b7d4.png"
   },
   {
-    "revision": "a06332a2e4a226acb1689c13feb49b6f",
+    "revision": "b7b329ecec177854fe6e345fa4da1a55",
     "url": "/spotifun/index.html"
   }
 ];

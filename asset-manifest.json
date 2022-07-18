@@ -1,15 +1,15 @@
 {
-  "main.css": "/spotifun/static/css/main.34bd155f.chunk.css",
-  "main.js": "/spotifun/static/js/main.c7d9c820.chunk.js",
-  "main.js.map": "/spotifun/static/js/main.c7d9c820.chunk.js.map",
+  "main.css": "/spotifun/static/css/main.c2e2545c.chunk.css",
+  "main.js": "/spotifun/static/js/main.d34d3909.chunk.js",
+  "main.js.map": "/spotifun/static/js/main.d34d3909.chunk.js.map",
   "runtime~main.js": "/spotifun/static/js/runtime~main.582706ea.js",
   "runtime~main.js.map": "/spotifun/static/js/runtime~main.582706ea.js.map",
   "static/js/2.c6ee0265.chunk.js": "/spotifun/static/js/2.c6ee0265.chunk.js",
   "static/js/2.c6ee0265.chunk.js.map": "/spotifun/static/js/2.c6ee0265.chunk.js.map",
   "index.html": "/spotifun/index.html",
-  "precache-manifest.f356d21f5aa14647aa30b60ca3c54daa.js": "/spotifun/precache-manifest.f356d21f5aa14647aa30b60ca3c54daa.js",
+  "precache-manifest.92a9a98bf1b19a6ff003ac2bebe40ddd.js": "/spotifun/precache-manifest.92a9a98bf1b19a6ff003ac2bebe40ddd.js",
   "service-worker.js": "/spotifun/service-worker.js",
-  "static/css/main.34bd155f.chunk.css.map": "/spotifun/static/css/main.34bd155f.chunk.css.map",
+  "static/css/main.c2e2545c.chunk.css.map": "/spotifun/static/css/main.c2e2545c.chunk.css.map",
   "static/media/FullVinyl8.png": "/spotifun/static/media/FullVinyl8.7fc9e476.png",
   "static/media/shelf2.png": "/spotifun/static/media/shelf2.d7b9b7d4.png"
 }
