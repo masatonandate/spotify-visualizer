@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "a9045f09d52838da06b4",
-    "url": "/spotifun/static/css/main.2a238d3f.chunk.css"
+    "revision": "14c1e7b8005c0b2c47e7",
+    "url": "/spotifun/static/css/main.6ce601de.chunk.css"
   },
   {
-    "revision": "a9045f09d52838da06b4",
-    "url": "/spotifun/static/js/main.6a05609d.chunk.js"
+    "revision": "14c1e7b8005c0b2c47e7",
+    "url": "/spotifun/static/js/main.9af9baac.chunk.js"
   },
   {
     "revision": "8f7db0dcd81afdbf50c8",
     "url": "/spotifun/static/js/runtime~main.582706ea.js"
   },
   {
-    "revision": "82fac4c90fbdbf40bafd",
-    "url": "/spotifun/static/js/2.8e6142ac.chunk.js"
+    "revision": "cb2be16f0aa035ec53bd",
+    "url": "/spotifun/static/js/2.c97addfa.chunk.js"
   },
   {
     "revision": "7fc9e4760d70909ea12a0ea192a9178f",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/spotifun/static/media/shelf2.d7b9b7d4.png"
   },
   {
-    "revision": "ed2cc1d1f4bfa8de0c38ee98eadb8eb7",
+    "revision": "fd9fa727c2c2c7a05b80364490919bf7",
     "url": "/spotifun/index.html"
   }
 ];
