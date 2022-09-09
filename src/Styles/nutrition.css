@@ -1,0 +1,90 @@
+.nutrition-main{
+  display: flex;
+  justify-content: center;
+}
+.label {
+  /*   background-image: url(	https://i.scdn.co/image/ab67616d0000b2733959cae63aba411b4e69b657); */
+    width: 340px;
+    border: black solid;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: Helvetica;
+    text-align: left;
+  /*   filter: blur(4px); */
+  }
+  
+  .main-title{
+    font-size: 45px;
+    margin: 0 2px;
+    border-bottom: solid black 1px;
+  }
+  .serving {
+    border-bottom: solid black 10px;
+    margin: 5px 2px;
+    padding-bottom: 4px;
+  }
+  
+  .amount{
+    margin: 4px 2px;
+  }
+  
+  .genre {
+    border-bottom: solid black 4px;
+    margin: 0px 2px;
+  }
+  
+  .monthly-percent{
+    text-align: right;
+    font-size: 12px;
+    border-bottom: solid black 1px;
+    margin: 4px 2px;
+  }
+  
+  .tableone{
+    width: 100%;
+    border-collapse: collapse;
+    padding-top: 0px;
+  }
+  
+  td {
+    border-bottom: solid black 1px;
+  }
+  
+  .percent{
+    text-align: right;
+    margin-right: 2px;
+  }
+  
+  .genre-title{
+    padding-left: 2px;
+  }
+  
+  
+  .tabletwo{
+    width: 100%;
+    border-collapse: collapse;
+    padding-top: 0px;
+  }
+  
+  .two-right{
+    text-align: right;
+  }
+  
+  .tabletwofirstone, .tabletwofirsttwo{
+    border-top: black solid 8px;
+  }
+  .tabletwofirsttwo{
+    text-align:right;
+    
+  }
+  .description{
+    margin-top:0px;
+    padding-top: 4px;
+    border-top:black solid 4px;
+    font-size: 12px;
+    
+  }
+  
+  .ingredients{
+    text-transform: uppercase;
+  }

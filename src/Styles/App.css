@@ -1,0 +1,327 @@
+
+.App {
+  text-align: center;
+  /* background-color: black; */
+}
+
+body {
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+select {
+  margin: 5vmin auto;
+  margin-top: 1vmin;
+}
+
+/* .Album-Cover-Animated{
+  position: absolute;
+  width: 30%;
+  left: 27%;
+  animation: App-logo-spin infinite 33s linear;
+  border-radius: 50%;
+  pointer-events: none;
+} */
+
+/* .Album-Cover-Stagnant{
+  position: absolute;
+  width: 30%;
+  left: 27%;
+  border-radius: 50%;
+  pointer-events: none;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* All the code For the actual Images and Text */
+.Album-Grid {
+  width: 50%;
+  margin: 5% auto;
+  display: grid;
+  gap: 5%;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-image: url('./shelf2.png'); */
+}
+
+.Album-Image {
+  width: 100%;
+  margin: auto;
+  /* margin-bottom: 10%; */
+  box-shadow: 1px 1px 5px ;
+}
+
+.Image-Holder {
+  position: relative;
+  text-align: center;
+}
+
+
+.Image-Holder:hover .Album-Image{
+  filter: blur(2px) grayscale(100%);
+}
+
+.Song-Details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.Image-Holder:hover .Song-Details{
+  opacity: 1;
+  color: lightblue;
+}
+
+/* All the code for the shelf object */
+/* .Shelf-Container {
+  margin: 0 auto;
+} */
+
+
+/* img.woodenShelfone {
+  /* position: absolute; */
+  /*width: 60%;
+  height: 25%;
+  left: 20%;
+  top: 10%;
+} */
+
+/* .record-player {
+  width: 50%;
+  position: relative;
+} */
+
+/* .visualizer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 1rem;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/* body {
+  /* background-color: #333; */
+  /* color: #eee; */
+  /* font-family: Helvetica, Arial; */
+  /* font-size: 3vmin; */
+/* } */
+
+.hidden {
+  display: none;
+}
+
+/** Button and Title Classes **/
+
+.btn {
+  background-color: transparent;
+  border-radius: 2em;
+  border: 0.2em solid #1ecd97;
+  color: #1ecd97;
+  cursor: pointer;
+  font-size: 3vmin;
+  padding: 0.7em 1.5em;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+
+}
+
+.btn:hover {
+  background: #1ecd97;
+  color: #333;
+}
+
+.btn--login {
+  margin: 0 auto;
+}
+
+header.App-header {
+  margin: 5vmin auto;
+}
+
+.Main-Title {
+  margin: 5% 0;
+}
+
+.Main-Subcaption {
+  text-align: center;
+  margin-top: 35vmin;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*new record player*/
+.rectangle{
+  position: absolute;
+  background: lightblue;
+  width: 75vmin;
+  height: 45vmin;
+  border-radius: 6vmin;
+}
+.album-cover-animated{
+  position: absolute;
+  width: 40vmin;
+  height: 40vmin;
+  border-radius: 50%;
+  animation: App-logo-spin infinite 33s linear;
+}
+
+.album-cover-stagnant{
+  position: absolute;
+  width: 40vmin;
+  height: 40vmin;
+  border-radius: 50%;
+  transform: translate(-15vmin);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: translate(-15vmin)rotate(0deg);
+  }
+  to {
+    transform: translate(-15vmin)rotate(360deg);
+  }
+}
+
+.disk{
+  position: absolute;
+  opacity: 0%;
+  background: black;
+  width: 40vmin;
+  height: 40vmin;
+  border-radius: 50%;
+  transform: translateX(-15vmin)
+}
+
+.inner-disk-one{
+  position: absolute;
+  background: white;
+  opacity: 100%;
+  width:15vmin;
+  height:15vmin;
+  border-radius:50%;
+  transform:translateX(-15vmin)
+}
+
+.inner-disk-two{
+  position: absolute;
+  background: black;
+  width:2vmin;
+  height:2vmin;
+  border-radius:50%;
+  transform:translateX(-15vmin)
+}
+
+.volume-bar {
+  position:absolute;
+  background:black;
+  width: 2vmin;
+  height: 25vmin;
+  transform: translate(25vmin, 5vmin);
+}
+
+.volume-slider {
+  position: absolute;
+  background:orange;
+  width: 6vmin;
+  height: 3vmin;
+  transform:translate(25vmin, -5vmin)
+}
+
+.pin-base{
+  position: absolute;
+  background:orange;
+  width: 5vmin;
+  height: 5vmin;
+  border-radius:50%;
+  transform:translate(10vmin, -15vmin);
+}
+
+.pin-hand-one {
+  position:absolute;
+  background:white;
+  width:25vmin;
+  height:1vmin;
+  transform:translate(8vmin, -3vmin)rotate(-80deg);
+}
+
+.pin-hand-two {
+  position:absolute;
+  background:white;
+  width:4vmin;
+  height:1vmin;
+  transform: translate(4.3vmin, 8.2vmin)rotate(20deg);
+}
+
+.pin-needle {
+  position:absolute;
+  background:orange;
+  width:3vmin;
+  height:3vmin;
+  transform:translate(1vmin, 7vmin)rotate(20deg)
+}
+
+.record-player {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 20vmin;
+  text-align: center;
+/*   transform: rotate(90deg); */
+}
+
+.name-and-artist{
+  transform: translateY(-5vmin);
+
+}
+
+
+@media (max-width: 30em) {
+  .Album-Grid {
+    margin: 25% auto;
+    width: 95%;
+  }
+
+  .record-player {
+    transform: scale(1.2);
+    margin-top: 20vmin;
+  }
+
+  .Main-Subcaption {
+    transform:translateY(85vmin);
+    margin: 2vmin 0;
+  }
+  .name-and-artist{
+    margin-bottom: 35vmin;
+    font-size: 3vmin;
+  }
+}
+
