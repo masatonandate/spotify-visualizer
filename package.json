@@ -1,10 +1,10 @@
 {
-  "name": "Spotifun",
-  "description": "Having Fun with the Spotify API and Animations and CSS",
+  "name": "Spotify Visualizer",
+  "description": "Having Fun with the Spotify API and Animations and CSS and practicing Front-End",
   "version": "0.1.0",
   "author": "Masato Nandate <mnandate.work@gmail.com>",
   "license": "MIT",
-  "homepage": "https://masatonandate.github.io/spotifun",
+  "homepage": "https://masatonandate.github.io/spotify-visualizer/",
   "private": true,
   "dependencies": {
     "axios": "^0.27.2",

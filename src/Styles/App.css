@@ -28,31 +28,7 @@ select {
   margin-top: 1vmin;
 }
 
-/* .Album-Cover-Animated{
-  position: absolute;
-  width: 30%;
-  left: 27%;
-  animation: App-logo-spin infinite 33s linear;
-  border-radius: 50%;
-  pointer-events: none;
-} */
 
-/* .Album-Cover-Stagnant{
-  position: absolute;
-  width: 30%;
-  left: 27%;
-  border-radius: 50%;
-  pointer-events: none;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 /* All the code For the actual Images and Text */
 .Album-Grid {
@@ -94,43 +70,11 @@ select {
   color: lightblue;
 }
 
-/* All the code for the shelf object */
-/* .Shelf-Container {
-  margin: 0 auto;
-} */
-
-
-/* img.woodenShelfone {
-  /* position: absolute; */
-  /*width: 60%;
-  height: 25%;
-  left: 20%;
-  top: 10%;
-} */
-
-/* .record-player {
-  width: 50%;
-  position: relative;
-} */
-
-/* .visualizer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10% 1rem;
-} */
 
 .App-link {
   color: #61dafb;
 }
 
-
-/* body {
-  /* background-color: #333; */
-  /* color: #eee; */
-  /* font-family: Helvetica, Arial; */
-  /* font-size: 3vmin; */
-/* } */
 
 .hidden {
   display: none;

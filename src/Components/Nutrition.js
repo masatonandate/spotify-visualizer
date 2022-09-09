@@ -127,46 +127,6 @@ const Nutrition = ({token}) => {
           <p class = "monthly-percent"><strong>% Monthly Value*</strong></p>
           <table class = "tableone">
             <tbody>
-            {/* <tr>
-              <td class = "genre-title">Rap</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Jazz</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Rock</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Pop</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Blues</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Folk</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Dance</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Electronic</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Hip Hop</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr>
-            <tr>
-              <td class = "genre-title">Techno</td>
-              <td class = "percent"><strong>10%</strong></td>
-            </tr> */}
               {
                 genreArray.slice(0,10).map((genre, index)=>{
                   return(
