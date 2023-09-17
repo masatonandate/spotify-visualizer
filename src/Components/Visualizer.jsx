@@ -34,10 +34,10 @@ const Visualizer = ({token}) => {
         }
       })
       .then(response => {
-        console.log("response happened for player", response)
+        console.log("Song Data Queued")
         if(response.data)
         {
-          console.log("playerresponsedata",response.data)
+          // console.log("playerresponsedata",response.data)
           setItem(response.data.item)
           setIs_playing(response.data.is_playing)
           setProgress_ms(response.data.progress_ms)
@@ -66,16 +66,10 @@ const Visualizer = ({token}) => {
     // const data = {
     //   model: "default"
     // }
-    axios.get("https://random-palette-generator.p.rapidapi.com/palette/Complementary/1/3", {
-      headers: {
-        'X-RapidAPI-Key': `${APIKEY}`,
-        'X-RapidAPI-Host': 'random-palette-generator.p.rapidapi.com'
-      }
-    }
-    )
-    // axios.post("http://colormind.io/api/", {body: JSON.stringify(data)})
+    axios.get("https://www.colr.org/json/schemes/random/1")
     .then(response => {
-      setColors(response.data.data)
+      console.log(response.data.schemes);
+      setColors(response.data.schemes[0].colors);
     })
   }, [newsong])
 
@@ -90,7 +84,7 @@ const Visualizer = ({token}) => {
       }
       )
       .then(response => {
-        console.log("artist data", response.data)
+        // console.log("artist data", response.data)
         setArtistimage(response.data.images)
       })
     }

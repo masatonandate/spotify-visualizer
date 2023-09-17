@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './Styles/index.css';
 import './Styles/App.css'
 import App from './App';
-import Draggable from 'react-draggable';
 import * as serviceWorker from './serviceWorker';
 
 

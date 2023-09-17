@@ -2,10 +2,9 @@ import React from "react"
 import {useState, useEffect} from "react";
 import { authEndpoint, clientId, redirectUri, scopes } from "./config";
 import hash from "./hash";
-import axios from 'axios'
 import "./Styles/App.css";
 import Visualizer from "./Components/Visualizer";
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Navbar from "./Components/Navbar";
 import Nutrition from "./Components/Nutrition"
 // import Draggable from "react-draggable";
@@ -13,6 +12,11 @@ import Nutrition from "./Components/Nutrition"
 function App(){
   //all the states
   const [token, setToken] = useState(null)
+
+  //if in local development go to localhost
+  if(process.env.NODE_ENV === 'development'){
+    var redirectUri = "http://localhost:3000/redirect/";
+  }
  
   //useEffect calls
   //useEffect to get token

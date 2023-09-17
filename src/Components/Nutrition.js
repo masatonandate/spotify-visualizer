@@ -60,29 +60,28 @@ const Nutrition = ({token}) => {
     }
   }, [token])
 
-  useEffect(() => {
-    let APIKEY = process.env.REACT_APP_NEXT_PUBLIC_RAPIDAPI_KEY;
-    // const data = {
-    //   model: "default"
-    // }
-    axios.get("https://random-palette-generator.p.rapidapi.com/palette/Complementary/1/3", {
-      headers: {
-        'X-RapidAPI-Key': `${APIKEY}`,
-        'X-RapidAPI-Host': 'random-palette-generator.p.rapidapi.com'
-      }
-    }
-    )
-    // axios.post("http://colormind.io/api/", {body: JSON.stringify(data)})
-    .then(response => {
-      setColor(response.data.data)
-    })
-  }, [])
+  // useEffect(() => {
+  //   let APIKEY = process.env.REACT_APP_NEXT_PUBLIC_RAPIDAPI_KEY;
+  //   // const data = {
+  //   //   model: "default"
+  //   // }
+  //   axios.get("https://random-palette-generator.p.rapidapi.com/palette/Complementary/1/3", {
+  //     headers: {
+  //       'X-RapidAPI-Key': `${APIKEY}`,
+  //       'X-RapidAPI-Host': 'random-palette-generator.p.rapidapi.com'
+  //     }
+  //   }
+  //   )
+  //   // axios.post("http://colormind.io/api/", {body: JSON.stringify(data)})
+  //   .then(response => {
+  //     setColor(response.data.data)
+  //   })
+  // }, [])
 
 
 
   let genreMap = new Map();
   const artistarray = [];
-  let count = 0;
   const today = new Date();
 
   if(artists !== null){
@@ -95,7 +94,6 @@ const Nutrition = ({token}) => {
         else{
           genreMap.set(artists[i].genres[j], 1)
         }
-        count += 1;
       }
     } 
   }
@@ -110,7 +108,6 @@ const Nutrition = ({token}) => {
   }
 
   // console.log('sortedgenre', genreArray)
-  console.log(me)
 
   if(color){
     document.body.style.backgroundImage = `linear-gradient(-45deg, ${color[0].palette[0]}, ${color[0].palette[1]})`;
