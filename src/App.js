@@ -37,7 +37,7 @@ function App(){
         {!token && (
           <>
             <div className = "Main-Title">
-              <h1 class = "Main-Title-Name">Spotify Visualizer Yer</h1>
+              <h1 class = "Main-Title-Name">Spotify Visualizer</h1>
             </div>
             <a
               className="btn btn--loginApp-link"
