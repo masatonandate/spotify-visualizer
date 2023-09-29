@@ -16,7 +16,9 @@ function App(){
   //if in local development go to localhost
   if(process.env.NODE_ENV === 'development'){
     var redirectUri = "http://localhost:3000/redirect/";
+    console.log(redirectUri)
   }
+  console.log(process.env.NODE_ENV)
  
   //useEffect calls
   //useEffect to get token
