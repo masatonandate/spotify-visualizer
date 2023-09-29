@@ -17,6 +17,8 @@ function App(){
   if(process.env.NODE_ENV === 'development'){
     var redirectUri = "http://localhost:3000/redirect/";
     console.log(redirectUri)
+  }else{
+    var redirectUri = "https://masatonandate.github.io/spotify-visualizer/"
   }
   console.log(process.env.NODE_ENV)
  
