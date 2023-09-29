@@ -1,6 +1,6 @@
 import React from "react"
 import {useState, useEffect} from "react";
-import { authEndpoint, clientId, redirectUri, scopes } from "./config";
+import { authEndpoint, clientId, scopes } from "./config";
 import hash from "./hash";
 import "./Styles/App.css";
 import Visualizer from "./Components/Visualizer";
@@ -16,11 +16,11 @@ function App(){
   //if in local development go to localhost
   if(process.env.NODE_ENV === 'development'){
     var redirectUri = "http://localhost:3000/redirect/";
-    console.log(redirectUri)
   }else{
     var redirectUri = "https://masatonandate.github.io/spotify-visualizer/"
   }
   console.log(process.env.NODE_ENV)
+  console.log(redirectUri)
  
   //useEffect calls
   //useEffect to get token
@@ -37,7 +37,7 @@ function App(){
         {!token && (
           <>
             <div className = "Main-Title">
-              <h1 class = "Main-Title-Name">Spotify Visualizer</h1>
+              <h1 class = "Main-Title-Name">Spotify Visualizer Yer</h1>
             </div>
             <a
               className="btn btn--loginApp-link"
